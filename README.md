@@ -25,4 +25,17 @@ Bây giờ chúng ta sẽ đi vào từng loại Regular Expressions
 
 Bao gồm các kí tự **^, $, *, ., [], [^char], <word>** 
 
+a. **^(kí tự)** Tìm kiếm kí tự tại đầu dòng
+
+VD1: Hiển thị các dòng trong file nam.txt có kí tự 'N'
+```
+cat name.txt | grep '^N'
+```
+Quá trình thực hiện câu lệnh nó sẽ tìm đầu dòng trong file nam.txt nếu có kí tự 'N' thì sẽ hiển thị ra
+
+<img class="image__pic js-image-pic" src="http://i.imgur.com/KOCzAOh.png" alt="" id="screenshot-image">
+
+b. 
+
+
 
